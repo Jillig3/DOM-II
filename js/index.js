@@ -60,3 +60,24 @@ const changeColor = document.querySelectorAll('nav a');
 for (let i = 0; i < changeColor.length; i++){
   changeColor[i].style.color = 'orange';
 }
+
+            //dbl click fun
+
+sun.addEventListener('dblclick', event => {
+    event.target.style.color = 'purple';
+})
+
+mount.addEventListener('dblclick', event => {
+    event.target.style.color = 'green';
+})
+
+            //button click
+
+sunBut.addEventListener('click', event => {
+    event.target.style.color = 'red';
+})
+
+mountBut.addEventListener('click', event => {
+    event.target.style.background = 'red';
+})
+
